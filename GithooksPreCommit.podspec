@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.name             = 'GithooksPreCommit'
   s.version          = '0.1.0'
   s.summary          = 'A short description of GithooksPreCommit.'
-  # s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  s.description      = <<-DESC
+                        long long longlonglonglonglonglong description of GithooksPreCommit.
                        DESC
   s.homepage         = 'https://github.com/chenjinfei/GithooksPreCommit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
