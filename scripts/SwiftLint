@@ -7,4 +7,4 @@ else
     exit 1
 fi
 $LINT lint --quiet
-$LINT autocorrect
+$LINT --fix
