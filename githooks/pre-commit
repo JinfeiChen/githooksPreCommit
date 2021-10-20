@@ -1,7 +1,5 @@
 export LC_ALL=en_US.UTF-8
 set -eu
-ruby ${script_directory}/Test.rb
-sh ${script_directory}/testSwiftlint 
-#swift ${script_directory}/Script.swift
+sh ${script_directory}/SwiftLint
 
 
