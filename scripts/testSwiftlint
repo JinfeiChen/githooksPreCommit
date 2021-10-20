@@ -1,0 +1,14 @@
+count=`swiftlint lint --enable-all-rules --quiet | wc -l | awk '{print $1}' | bc`
+
+if [ $count -gt 0 ]
+then
+        echo "Please correct swift-lint errors"
+        echo "\n--------------------------------\n"
+        swiftlint lint --quiet
+        exit 1
+else
+        echo "Code quality check done."
+        echo "\nThank you for keeping the code clean."
+        echo "\nCommiting code"
+        exit 0
+fi
