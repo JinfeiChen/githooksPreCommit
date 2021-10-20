@@ -1,10 +1,4 @@
-#export LC_ALL=en_US.UTF-8
-#set -eu
-#ruby ${script_directory}/Test.rb
+export LC_ALL=en_US.UTF-8
+set -eu
+ruby ${script_directory}/Test.rb
 
-#!/usr/bin/env bash
-current_repo_path=$(git rev-parse --show-toplevel)
-repo_to_format="/Users/young/Desktop/demo/demoWebView"
-if [ "$current_repo_path" == "$repo_to_format" ] && 
-[ -e "/Users/young/desktop/demo/spacecommander"/format-objc-hook ]; 
-then "/Users/young/desktop/demo/spacecommander"/format-objc-hook; fi
