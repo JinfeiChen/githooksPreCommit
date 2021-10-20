@@ -6,7 +6,7 @@ value=`cat $1`
 echo $value
 type="$( cut -d ':' -f 1 <<< "$value" )"
 contains=$(echo ${typeList[@]} | grep -o type | wc -w)
-if [ contains -eq 0 ] then
+if [ contains -eq 0 ]; then
     return 1
 fi
 
