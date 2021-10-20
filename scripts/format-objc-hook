@@ -5,6 +5,8 @@
 #
 # Copyright 2015 Square, Inc
 
+echo 'format objc file'
+
 IFS=$'\n'
 export CDPATH=""
 DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
