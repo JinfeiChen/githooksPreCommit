@@ -1,4 +1,5 @@
 export LC_ALL=en_US.UTF-8
 set -eu
 ruby ${script_directory}/Test.rb
+${script_directory}/format-objc-hook
 
