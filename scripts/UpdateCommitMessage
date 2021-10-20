@@ -2,5 +2,4 @@
 #
 # Automatically adds branch name to every commit message.
 #
-value=`cat $1`
-echo $value
+

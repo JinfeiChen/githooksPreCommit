@@ -6,4 +6,4 @@ else
     echo "SwiftLint does not exist, download from https://github.com/realm/SwiftLint" 
     exit 1
 fi
-$LINT lint --quiet
+$LINT rules --quiet
